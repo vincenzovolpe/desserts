@@ -1,0 +1,152 @@
+
+  body {
+    background-color: #696969;
+  }
+
+  .navbar-static-top {
+    margin-bottom: 19px;
+  }
+
+  .giustificato {
+    text-align: justify;
+  }
+
+  .pull-left h2{
+    color: white;
+  }
+
+  .card-img-overlay {
+    transition: .5s ease;
+    background-color: #696969;
+    border: 1px solid;
+    color: white;
+    overflow-y: auto;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box-front {
+    border: 1px solid white;
+}
+
+.card {
+    background-color: transparent;
+    perspective: 1000px;
+}
+
+.card:hover .flip-box-inner{
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+
+.card-title, .card-img-overlay span:not(.genre){
+    font-weight: 800;
+}
+
+.card-columns .card {
+    margin-bottom: -1rem;
+}
+
+.nascosto {
+    display: none;
+}
+
+.visibile {
+    display: block;
+}
+
+.page-link, .page-link:hover{
+   color: black;
+}
+
+.active > .page-link {
+    background-color: #696969;
+    border-color: white;
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 4;
+    }
+}
+
+@media (min-width: 1201px) {
+    .card-columns {
+        column-count: 6;
+    }
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+  }
+
+  /* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 0px;
+    left: 16px;
+  }
+
+  /* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 0px;
+    right: 16px;
+  }
+/* .card-img {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .card-title {
+    margin-bottom: 0.3rem;
+  }
+
+  .cat {
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+
+  .fa-users {
+    margin-left: 1rem;
+  }
+
+  .card-footer {
+    font-size: 0.8rem;
+  }
+
+  i{
+      color:#ffd200;font-size:13px;display:inline-block
+  }
+  i.disable {
+      color:#dcdcdc
+  } */
