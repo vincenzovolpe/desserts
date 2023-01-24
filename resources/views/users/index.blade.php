@@ -55,7 +55,7 @@
       @endcan
 
       @can('user-delete')
-        {!! Form::open(['method' => 'Cancella','route' => ['users.destroy', $user->id],'style'=>'display:inline']) !!}
+        {!! Form::open(['method' => 'DELETE','route' => ['users.destroy', $user->id],'style'=>'display:inline']) !!}
 
             {!! Form::submit('Delete', ['class' => 'btn btn-danger']) !!}
 
