@@ -17,7 +17,7 @@
     Nella pagina vetrina dove tutti possono vedere la lista di dolci disponibili e il prezzo relativo. Andando nella pagina del dettaglio del dolce (tramite la tecnica Flip Card), si scoprono
     gli ingredienti indicati dalla ricettacompreso la descrizione.
 
-## Installazione del progetto
+## Installazione del progetto 
 
 Download del progetto da github
 
@@ -59,12 +59,10 @@ php artisan db:seed --class=CreateAdminUserSeeder
 php artisan serve
 ```
 
-Email e password di default per accedere come admin
+## Demo funzionante online
 
-```
-email: vinci792010@gmail.com
-password: 123456
-```
+https://www.volpevincenzo.it/desserts
+
 
 ## Screenshot
 
