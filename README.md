@@ -81,7 +81,7 @@ password: 1234
 Email e password demo per accedere come Maria (permessi user)
 
 ```
-email: luana@gmail.com
+email: maria@gmail.com
 password: 1234
 ```
 
