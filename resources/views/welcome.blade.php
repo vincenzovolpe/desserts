@@ -30,7 +30,7 @@
             <div class="film card img-fluid mb-2 colonna">
                 <div class="flip-box-inner">
                     <div class="flip-box-front">
-                        <img class="card-img-top" src="/image/{{ $dessert->immagine }}" alt="{{ $dessert->nome }}">
+                        <img class="card-img-top" src="{{ asset("/image/$dessert->immagine")}}" alt="{{ $dessert->nome }}">
                         <div class="card-img-overlay_normal">
 
                             <p class="top-left btn btn-light text-uppercase fw-bold">{{ $dessert->nome }}</p>

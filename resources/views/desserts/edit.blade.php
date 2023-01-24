@@ -74,7 +74,7 @@
                 <div class="form-group mb-4">
                     <strong>Immagine:</strong>
                     <input type="file" name="image" class="form-control" placeholder="immagine">
-                    <img src="/image/{{ $dessert->immagine }}" width="300px">
+                    <img src="{{ asset("/image/$dessert->immagine")}}" width="300px">
                 </div>
 
 		      <button type="submit" class="btn btn-light">Modifica</button>

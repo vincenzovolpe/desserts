@@ -50,7 +50,7 @@
                         @endphp --}}
                         <tr>
                             <td>{{ ++$i }}</td>
-                            <td><img src="/image/{{ $dessert->immagine }}" width="100px"></td>
+                            <td><img src="{{ asset("/image/$dessert->immagine")}}" width="100px"></td>
                             <td>{{ $dessert->nome }}</td>
                             <td>{{ $dessert->descrizione }}</td>
                             <td>

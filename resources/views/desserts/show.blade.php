@@ -19,7 +19,7 @@
 
                 <div class="form-group text-center mb-4">
                     {{-- <strong>Immagine:</strong> --}}
-                    <img src="/image/{{ $dessert->immagine }}" width="500px">
+                    <img src="{{ asset("/image/$dessert->immagine")}}" width="500px">
                 </div>
 
                 <div class="form-group mb-4">

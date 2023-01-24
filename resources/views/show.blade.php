@@ -69,7 +69,7 @@
 
             <h1 class="post-title">{{ $dessert->nome }}</h1>
 
-            <img class="col-md-4" src="/image/{{ $dessert->immagine }}">
+            <img class="col-md-4" src="{{ asset("/image/$dessert->immagine")}}">
 
             <div class="post-content">
 
