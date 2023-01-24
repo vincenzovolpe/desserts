@@ -64,6 +64,27 @@ php artisan serve
 https://www.volpevincenzo.it/desserts
 
 
+Email e password di default per accedere come admin
+
+```
+email: vinci792010@gmail.com
+password: 123456
+```
+
+Email e password demo per accedere come Luana (permessi user)
+
+```
+email: luana@gmail.com
+password: 1234
+```
+
+Email e password demo per accedere come Maria (permessi user)
+
+```
+email: luana@gmail.com
+password: 1234
+```
+
 ## Screenshot
 
 
